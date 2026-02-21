@@ -15,6 +15,7 @@ class Node {
         child2_ = nullptr;
         child1_ = nullptr;
         parent = nullptr;
+        pid_;
     }
     ////maybe call this one fork
     Node(int data, Node* parent){
@@ -22,6 +23,7 @@ class Node {
         child2_ = nullptr;
         child1_ = nullptr;
         parent = parent*;
+        pid_;
     }
 
     int getData(){
@@ -36,12 +38,17 @@ class Node {
     void setParent(Node* parent){
         parent_ = parent;
     }
-
-
+    int getPid (){
+        return pid_;
+    }
+    void setPid(int pid_){
+        pid_ = pid;
+    }
     private:
         int data_;
         Node* child1_;
         Node* child2_;
         Node* parent_;
+        int pid_;
 };
 
