@@ -19,7 +19,8 @@ class Node {
     }
     ////maybe call this one fork
     Node(int data, Node* parent){
-          data_ = data;
+   
+        data_ = data;
         child2_ = nullptr;
         child1_ = nullptr;
         parent = parent*;

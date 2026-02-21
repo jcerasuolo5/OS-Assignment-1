@@ -1,12 +1,8 @@
 #include <iostream>
- #include "processes.cpp"
 
-int fork(Node node){
- //Fok is gonna create a child with the parent pointer the onlu one not null
+ //Fork is gonna create a child with the parent pointer the only one not null
  //going to wait for child 1 to finish before returning
  //no if else logic here
-    return node.data;
-}
 
 //TO DO
 //first call parent form and create child 1, then wait for child 1 to finish - say the cout statment,
@@ -17,8 +13,11 @@ int fork(Node node){
 
 //make sure there is logic to decide where you are, if the pid i larger then 0 
 
-int main() {
- Node parent( 12345678 ); //create the first parent
+// First we are going to start the process tree
+int main {
+    parent ();
+    return 0 
+}
 
 std:: cout << "I am the original parent; my process ID is pid = "<< getData(parent) << "\n";//orginical node
 
