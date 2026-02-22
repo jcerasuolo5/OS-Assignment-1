@@ -100,6 +100,7 @@ void child3()
     wait(NULL);
 }
 
+// Now we print out what rest of the children ( theres functions are going to be invoked by the respective child processes)
 void child4()
 {
     std::cout << "I am child pid = " << getpid() << "; my parent is pid = " << getppid() << "\n";

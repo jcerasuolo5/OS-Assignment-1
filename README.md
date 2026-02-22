@@ -3,9 +3,9 @@ Name: Jasmine Cerasuolo
 Email: jcerasuolo@csu.fullerton.edu
 Github User: jcerasuolo5
  
-Name: 
-Email:
-Github User:
+Name: Itsel Torres
+Email: itsybitsy618@csu.fullerton.edu
+Github User: itsy18
  
 ### Description of Process Roles
 
