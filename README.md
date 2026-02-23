@@ -69,6 +69,12 @@ g++ processes.cpp -o processes
 To Run the program, use the following command:
 ./processes
 
+---
+
+## Special Notes 
+
+We used chatgpt minimally to help us understand how implement fork(). Originally, we looked at the lecture slides with examples of how fork() was inputed, but the system was saying that we were doing something wrong, so we used chatgpt to guide us in that small line of code. Other than that we mainly used the lecture slides from week 3 and online resources like Stack Overflow and GeeksforGeeks to comfirm if what we were doing was logically correct!
+
 
 
 
