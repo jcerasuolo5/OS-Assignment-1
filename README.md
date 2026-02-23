@@ -67,10 +67,11 @@ To compile the program, use the following command:
 g++ processes.cpp -o processes
 ```
 To Run the program, use the following command:
+
+```bash
 ./processes
-
+```
 ---
-
 
 ## Special Notes 
 
